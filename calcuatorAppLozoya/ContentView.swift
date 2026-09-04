@@ -14,7 +14,10 @@ struct ContentView: View {
                 .frame(width: .infinity, height: 200)
                 .overlay(Text("Circuit Lab Calculations")
                     .foregroundStyle(.white)
-                    .font(.custom("idk", size: 40, relativeTo: .largeTitle))
+                    .font(.custom("times-Bold", size: 40, relativeTo: .largeTitle))
+                    
+
+                    
                 )
                 Spacer()
             Button{
